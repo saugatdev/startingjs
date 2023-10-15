@@ -54,8 +54,8 @@
 //console.log(gameCounter)
 
 
-let x = 5;
-let y = ++x; // y will be 6, and x will be 6
+// let x = 5;
+// let y = ++x; // y will be 6, and x will be 6
 
-let x = 5;
-let y = x++; // y will be 5, and x will be 6
+// let x = 5;
+// let y = x++; // y will be 5, and x will be 6
