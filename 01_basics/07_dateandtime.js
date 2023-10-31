@@ -8,12 +8,12 @@
 // let myCreatedDate = new Date(2023,11,23)
 // console.log(myCreatedDate.toString());
 
-// let myCreatedDate = new Date("2023-01-14")
+let myCreatedDate = new Date("2023-01-14")
 
-// console.log(myCreatedDate.toString())
-// console.log(myCreatedDate.toISOString())
-// console.log(myCreatedDate.toLocaleString())
-// console.log(myCreatedDate.toLocaleDateString())
+console.log(myCreatedDate.toString())
+console.log(myCreatedDate.toISOString())
+console.log(myCreatedDate.toLocaleString())
+console.log(myCreatedDate.toLocaleDateString())
 
 //timestamp
 
