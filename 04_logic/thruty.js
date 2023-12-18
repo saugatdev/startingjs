@@ -25,3 +25,10 @@ if(userEmail.length===0){
 //Nullish Coalescing Operator (??): null undefined
 
 //Safety Check
+
+//ternary Operator
+
+//condition? true :false
+
+const iceTeaProce =100
+iceTeaProce>=80 ? console.log("less than 100"):console.log("more than 100");
