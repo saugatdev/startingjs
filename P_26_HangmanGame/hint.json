@@ -1,0 +1,20 @@
+[
+    {"name": "Himalayas", "hint": "Home to the world's highest mountains"},
+    {"name": "Everest", "hint": "Tallest mountain in the world"},
+    {"name": "Kathmandu", "hint": "Capital city of Nepal"},
+    {"name": "Sherpa", "hint": "Ethnic group known for mountaineering skills"},
+    {"name":  "Yak", "hint": "High-altitude animal used for transportation"},
+    {"name": "Gurkha", "hint": "Renowned Nepalese soldiers"},
+    {"name": "Lumbini", "hint": "Birthplace of Buddha"},
+    {"name": "Durbar Square", "hint": "Historic sites in Kathmandu Valley"},
+    {"name": "Monsoon", "hint": "Annual rainy season in Nepal"},
+    {"name": "Stupa", "hint": "Buddhist religious monument"},
+    {"name": "Yeti", "hint": "Legendary ape-like creature said to inhabit the Himalayas"},
+    {"name": "Pokhara", "hint": "Popular tourist destination with lakes and mountains"},
+    {"name": "Langtang", "hint": "Scenic trekking region near Kathmandu"},
+    {"name": "Annapurna", "hint": "Mountain range in the Himalayas"},
+    {"name": "Bhaktapur", "hint": "Ancient city with well-preserved medieval architecture"},
+    {"name": "Dhaulaggiri", "hint": "Seventh highest mountain in the world"},
+    {"name": "Khukuri", "hint": "Traditional Nepalese knife"},
+    {"name": "Sagarmatha", "hint": "Nepali name for Mount Everest"}
+]
