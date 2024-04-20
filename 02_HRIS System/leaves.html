@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #333;
+    margin: 22px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+</style>
+<body>
+    <br>
+ List of Todays Leave
+
+ <table id="dataTable">
+    <tbody></tbody>
+ </table>
+</body>
+
+<script>
+
+fetch('users.json')
+.then(response => response.json())
+.then(data=>{
+    const tableElement =document.querySelector('#dataTable tbody')
+  
+    data.people.forEach(person => {
+
+        if(person.leaves ===1){
+
+        
+        tableElement.innerHTML +=`
+        <tr>
+        <td> ${person.name} </td>
+        <td> ${person.phone_number} </td>
+        <td> ${person.designation} </td>
+        <tr>
+        `
+    }
+    });
+})
+.catch(error=> console.error('error fetching',error));
+</script>
+</html>

@@ -1,0 +1,53 @@
+{
+    "people": [
+      {
+        "name": "Saugat Ghimire",
+        "phone_number": "+977-9841234567",
+        "designation": "Marketing Manager",
+        "leaves":0
+        
+
+      },
+      {
+        "name": "Sarita Shrestha",
+        "phone_number": "+977-9812345678",
+        "designation": "Software Engineer",
+        "leaves":1
+
+      },
+      {
+        "name": "Rajesh Thapa",
+        "phone_number": "+977-9841234567",
+        "designation": "Marketing Manager"
+
+
+      },
+      {
+        "name": "Amit Sharma",
+        "phone_number": "+977-9865432109",
+        "designation": "HR Executive",
+        "leaves":1
+      },
+      {
+        "name": "Nisha Gurung",
+        "phone_number": "+977-9810987654",
+        "designation": "Finance Analyst"
+      },
+      {
+        "name": "Nisha Gurung",
+        "phone_number": "+977-9810987654",
+        "designation": "Finance Analyst"
+      },
+      {
+        "name": "Nisha Gurung",
+        "phone_number": "+977-9810987654",
+        "designation": "Finance Analyst"
+      },
+      {
+        "name": "Ramesh Bhattarai",
+        "phone_number": "+977-9856789012",
+        "designation": "Operations Supervisor"
+      }
+    ]
+  }
+  

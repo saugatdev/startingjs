@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    padding: 22px;
+    margin-top: 22px;
+    display: grid;
+
+
+}
+main{
+    position: relative;
+}
+
+button{
+    background-color: blue;
+    color: aliceblue;;
+    margin: 0;
+    border-radius: 12px;
+    padding: 22px;
+    font-size: 22px;
+    border: none;
+    display: grid;
+    margin: auto;
+
+}

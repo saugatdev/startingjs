@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+.card {
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+}
+
+#number {
+    font-size: 6rem;
+    object-fit: cover;
+}
+
+.buttons {
+    font-size: larger;
+}
+
+#minus, #Reset, #Add {
+    background-color: red;
+    border: none;
+    font-size: larger;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#Reset {
+    background-color: black;
+}
+#Add {
+    background-color: rgb(34, 255, 0);
+}

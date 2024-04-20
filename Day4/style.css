@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    
+
+}
+
+/* html{
+    background:url(https://images.pexels.com/photos/20434627/pexels-photo-20434627/free-photo-of-view-t-b-o-tang-d-ng-dinh-da-n-ng.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center;
+} */
+
+
+h1{
+
+  color: #fff;  
+  background-color: blueviolet;
+  text-align: center;
+  padding: 20px;
+  margin: 88px;
+  text-decoration:underline ;
+  display: inline;
+}
+
+span{
+        color: #fff;  
+        background-color: blueviolet;
+        text-align: center;
+        padding: 20px;
+        margin: 88px;
+        text-decoration:underline ;
+        display: block;
+      
+}
+
+p{
+    color: #fff;  
+    background-color: blueviolet;
+    text-align: center;
+    padding: 20px;
+    margin: 88px;
+    display: block;
+  
+}

@@ -1,0 +1,1 @@
+const questionbox =document.querySelectorAll('#questionbox')

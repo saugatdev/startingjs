@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+
+}
+
+.card{
+    height: 600px;
+    width: 400px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.card img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+  
+}
+
+.card h1{
+    font-size: 21;
+
+}
+
+button{
+    background-color:blue;
+    color: antiquewhite;
+    border: none;
+    padding: 12px;
+    font-size: large;
+    margin: 12px;
+   cursor: pointer;
+}

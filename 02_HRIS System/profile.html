@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <style>
+
+
+        /* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content styles */
+.main {
+    text-align: center;
+}
+
+/* Heading styles */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input styles */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: 16px;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+
+   
+</head>
+<body>
+
+    <div class="main"> 
+        <br><br>
+        <br>
+        <h2 id="detailn">Name of person</h2>
+        <h2 id="detailj">Job Title</h2>
+        <h2 id="detaild">Department</h2>
+    </div>
+<br>
+
+    <div class="container">
+        <button id="goback"> Go Back</button>
+        
+        <div class="main">
+            
+            <h2>Edit Your Personal Details</h2>
+            <input type="text"placeholder="Enter User Name" id="uname">
+            <input type="text"placeholder="Enter Your Job Title" id="jobtitle">
+            <input type="text"placeholder="Enter Your Department" id="department">
+
+           
+
+
+            <button id="save">Save</button>
+            
+
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
