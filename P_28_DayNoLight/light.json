@@ -1,0 +1,277 @@
+[
+    {
+        "name": "Achham",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Arghakhanchi",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Baglung",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Baitadi",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Bajhang",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Bajura",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Banke",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Bara",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Bardiya",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Bhaktapur",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Bhojpur",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Chitwan",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Dadeldhura",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Dailekh",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Dang",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Darchula",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Dhading",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Dhankuta",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Dolakha",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Dolpa",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Doti",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Eastern Rukum",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Gulmi",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Humla",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Ilam",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Jajarkot",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Jhapa",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Jumla",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Kailali",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Kalikot",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Kanchanpur",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Kapilvastu",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Kaski",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Kathmandu",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Kavrepalanchok",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Khotang",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Lalitpur",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Lamjung",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Mahottari",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Makwanpur",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Manang",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Morang",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Mugu",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Mustang",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Myagdi",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Nawalparasi",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Nuwakot",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Okhaldhunga",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Palpa",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Panchthar",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Parbat",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Parsa",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Pyuthan",
+        "light": 1,
+        "vote": 0
+    },
+    {
+        "name": "Ramechhap",
+        "light": 0,
+        "vote": 0
+    },
+    {
+        "name": "Rasuwa",
+        "light": 1,
+        "vote": 0
+    }
+]
