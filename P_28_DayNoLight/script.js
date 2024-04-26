@@ -5,6 +5,9 @@ const vote = document.getElementById("vote");
 const search = document.getElementById("search");
 let count = 0;
 
+card.style.display = 'none';
+
+
 search.addEventListener("click", function(){
     const inputvalue = inputtext.value;
     searchDistrict(inputvalue);
@@ -18,7 +21,11 @@ inputtext.addEventListener("keydown", function(e) {
     }
 });
 
+
+
 function searchDistrict(inputvalue) {
+    card.style.display = 'block';
+
     fetch('light.json')
         .then(response => response.json())
         .then(data => {
