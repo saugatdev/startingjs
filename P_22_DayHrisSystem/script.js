@@ -2,8 +2,15 @@ const profile = document.getElementById("profile");
 const directory = document.getElementById("directory");
 const leaves = document.getElementById("leaves");
 const review = document.getElementById("review");
-const goback = document.getElementById("goback");
+const edit = document.getElementById("edit");
 const container = document.getElementById("container");
+var image= document.getElementById("image");
+
+
+
+image?.addEventListener("click", function(){
+    window.location.href = "index.html";
+});
 
 profile?.addEventListener("click", function(){
     window.location.href = "profile.html";
@@ -17,8 +24,8 @@ leaves?.addEventListener("click", function(){
     window.location.href = "leaves.html";
 });
 
-goback?.addEventListener("click", function(){
-    window.location.href = "index.html";
+edit?.addEventListener("click", function(){
+    container.style.display='block';
 });
 
 const save = document.getElementById("save");
@@ -37,8 +44,16 @@ save?.addEventListener("click", function(){
         localStorage.setItem('job', valuej);
         localStorage.setItem('department', valued);
         location.reload();
+
+        
+
     }
 });
+
+
+
+
+
 
 window.addEventListener("load", () => {
     const detailn = document.getElementById("detailn");
@@ -52,3 +67,27 @@ window.addEventListener("load", () => {
     const valued = localStorage.getItem("department");
     detaild.innerHTML = `Department: ${valued}`;
 });
+
+
+function changeCursor(event) {
+    event.target.style.cursor = "pointer";
+}
+
+image.onmousemove = function(event) {
+    var followCursor = document.getElementById('followCursor1');
+    followCursor.style.left = (event.clientX + 10) + 'px'; 
+    followCursor.style.top = (event.clientY + 10) + 'px'; 
+};
+image.onmouseenter = function(event) {
+    var followCursor = document.getElementById('followCursor1');
+    followCursor.style.display='block';
+};
+
+image.onmouseleave = function(event) {
+
+        var followCursor = document.getElementById('followCursor1');
+        followCursor.style.display='none';
+};
+
+
+

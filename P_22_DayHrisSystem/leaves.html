@@ -3,15 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sapiens Leaves</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap">
+
 </head>
 <style>
 
-body {
-    font-family: Arial, sans-serif;
-    
-}
+    *{
+        font-family: 'Sora', sans-serif;
 
+    }
+
+    ::selection {
+    background-color: #333; 
+    color: #f5f5f5;
+}
+    body{
+        margin: 10px;
+    }
 .container {
     max-width: 800px;
     margin: 20px auto;
@@ -46,14 +55,25 @@ tr:hover {
     background-color: #ddd;
 }
 
+.image{
+    width: 180px;
+    cursor: pointer;
+}
+
+
 </style>
 <body>
-    <br>
- List of Todays Leave
+    <div class="container">
+    <img src="images/sapiens.png" class="image" id="image">
 
+    <br>
+
+    Sapiens on Leaves
  <table id="dataTable">
     <tbody></tbody>
  </table>
+
+</div>
 </body>
 
 <script>
@@ -80,4 +100,6 @@ fetch('users.json')
 })
 .catch(error=> console.error('error fetching',error));
 </script>
+
+<script src="script.js"></script>
 </html>

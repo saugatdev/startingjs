@@ -3,26 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Sapiens Profile</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap">
+
 
     <style>
 
 
-        /* Resetting default margin and padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+
+
+}
+::selection {
+    background-color: #333; 
+    color: #f5f5f5;
 }
 
-/* Body styles */
 body {
-    font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: 'Sora', sans-serif;
+
 }
 
-/* Container styles */
-.container {
+#container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -31,18 +41,15 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Main content styles */
 .main {
-    text-align: center;
+    text-align: left;
 }
 
-/* Heading styles */
 h2 {
     margin-bottom: 20px;
     color: #333;
 }
 
-/* Input styles */
 input[type="text"] {
     width: 100%;
     padding: 10px;
@@ -53,7 +60,6 @@ input[type="text"] {
     font-size: 16px;
 }
 
-/* Button styles */
 button {
     padding: 10px 20px;
     background-color: #007bff;
@@ -69,13 +75,32 @@ button:hover {
     background-color: #0056b3;
 }
 
+.image{
+    width: 180px;
+    cursor: pointer;
+}
+
+#followCursor1 {
+    position: fixed;
+    pointer-events: none;
+    color: #000000; 
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+    display: none;
+}
+
     </style>
 
    
 </head>
 <body>
+    <img src="images/sapiens.png" class="image" id="image">
+
 
     <div class="main"> 
+
         <br><br>
         <br>
         <h2 id="detailn">Name of person</h2>
@@ -84,8 +109,9 @@ button:hover {
     </div>
 <br>
 
-    <div class="container">
-        <button id="goback"> Go Back</button>
+<button id="edit"> Edit</button>
+    <div id="container" style="display: none;">
+        
         
         <div class="main">
             
@@ -98,9 +124,15 @@ button:hover {
 
 
             <button id="save">Save</button>
+
             
 
         </div>
+    </div>
+
+
+    <div id="followCursor1">
+       Go to  Home
     </div>
 
 </body>
