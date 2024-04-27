@@ -114,6 +114,15 @@ p {
     border-radius: 4px;
     transition: transform 0.3s ease;
 }
+#followCursor6 {
+    position: fixed;
+    pointer-events: none;
+    color: #000000; 
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
 
 
 

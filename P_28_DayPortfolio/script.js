@@ -4,6 +4,9 @@ window.open("https://nolight.vercel.app/");
 function opensahayatri(){
 window.open("https://sahayatri.vercel.app/");
 }
+function opensapiens(){
+window.open("https://sapienshris.vercel.app/");
+}
 
 
 
@@ -148,6 +151,32 @@ contactme.onmouseleave = function(event) {
 };
 
 
+//sapiens
+
+var projectsapiens =document.getElementById("projectsapiens");
+function changeCursor(event) {
+    event.target.style.cursor = "pointer";
+}
+
+projectsapiens.onmousemove = function(event) {
+    var followCursor = document.getElementById('followCursor6');
+    followCursor.style.left = (event.clientX + 10) + 'px'; 
+    followCursor.style.top = (event.clientY + 10) + 'px'; 
+    
+};
+projectsapiens.onmouseenter = function(event) {
+    var followCursor = document.getElementById('followCursor6');
+    followCursor.style.display='block';
+};
+
+projectsapiens.onmouseleave = function(event) {
+
+        var followCursor = document.getElementById('followCursor6');
+        followCursor.style.display='none';
+};
+
+
+//sapiens
 
 
 
