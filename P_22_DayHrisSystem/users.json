@@ -18,7 +18,9 @@
       {
         "name": "Rajesh Thapa",
         "phone_number": "+977-9841234567",
-        "designation": "Marketing Manager"
+        "designation": "Marketing Manager",
+        "leaves":1
+
 
 
       },
@@ -31,22 +33,30 @@
       {
         "name": "Nisha Gurung",
         "phone_number": "+977-9810987654",
-        "designation": "Finance Analyst"
+        "designation": "Finance Analyst",
+        "leaves":1
+
       },
       {
         "name": "Nisha Gurung",
         "phone_number": "+977-9810987654",
-        "designation": "Finance Analyst"
+        "designation": "Finance Analyst",
+        "leaves":1
+
       },
       {
         "name": "Nisha Gurung",
         "phone_number": "+977-9810987654",
-        "designation": "Finance Analyst"
+        "designation": "Finance Analyst",
+        "leaves":0
+
       },
       {
         "name": "Ramesh Bhattarai",
         "phone_number": "+977-9856789012",
-        "designation": "Operations Supervisor"
+        "designation": "Operations Supervisor",
+        "leaves":0
+
       }
     ]
   }

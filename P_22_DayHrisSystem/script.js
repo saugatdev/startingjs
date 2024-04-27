@@ -5,12 +5,17 @@ const review = document.getElementById("review");
 const edit = document.getElementById("edit");
 const container = document.getElementById("container");
 var image= document.getElementById("image");
-
+const applyleave = document.getElementById("applyleave");
 
 
 image?.addEventListener("click", function(){
     window.location.href = "index.html";
 });
+
+applyleave?.addEventListener("click", function(){
+    window.location.href = "applyleave.html";
+});
+
 
 profile?.addEventListener("click", function(){
     window.location.href = "profile.html";
