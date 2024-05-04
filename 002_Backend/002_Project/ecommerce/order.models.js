@@ -26,6 +26,13 @@ const orderSchema= new mongoose.orderSchema({
     },
     orderItems:{
         type: [orderItemSchema]
+    },
+
+    address:{
+        type:String,
+        required:true,
+        
+
     }
 
 
