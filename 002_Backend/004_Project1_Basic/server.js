@@ -17,6 +17,7 @@ const port =process.env.PORT;
 // app.get('/api/status',(req,res)=>{
 //     res.status(200).json({message: "Get all Contacts Bruh"})
 // })
+app.use(express.json())
 
 app.use("/api/contacts",require("./routes/contactRoutes"))
 
