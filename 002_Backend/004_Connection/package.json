@@ -1,5 +1,5 @@
 {
-  "name": "chai-backend",
+  "name": "saugatbackend",
   "version": "1.0.0",
   "description": "a backend at chai aur code channel - youtube",
   "type": "module",
@@ -12,7 +12,7 @@
     "backend",
     "chai"
   ],
-  "author": "Hitesh Choudhary",
+  "author": "Saugat Ghimire",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.0.1",
