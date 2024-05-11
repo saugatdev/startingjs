@@ -7,6 +7,9 @@ window.open("https://sahayatri.vercel.app/");
 function opensapiens(){
 window.open("https://sapienshris.vercel.app/");
 }
+function openresume(){
+window.open("https://resumebuilder-lake.vercel.app/");
+}
 
 
 
