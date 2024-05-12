@@ -1,7 +1,10 @@
 // setInterval(function() {
 //     console.log("hello");
 // }, 2000);
+// console.log(__filename);
+// console.log(__dirname);
 
+// const {add} = require("./app");
 
-console.log(__filename);
-console.log(__dirname);
+import{add} from "./app.js"
+console.log(add(2,3))

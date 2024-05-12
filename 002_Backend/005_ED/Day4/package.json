@@ -1,8 +1,8 @@
 {
-  "name": "005_ed",
+  "name": "day4",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
