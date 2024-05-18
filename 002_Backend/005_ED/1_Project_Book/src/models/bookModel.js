@@ -1,7 +1,9 @@
+// src/models/bookModel.js
+
 import connection from './index.js'; // adjust the path if needed
 import { DataTypes } from 'sequelize';
 
-const Book = connection.define(
+export default connection.define(
   'books',
   {
     id: {
@@ -32,5 +34,3 @@ const Book = connection.define(
     timestamps: false,
   }
 );
-
-export default Book;
