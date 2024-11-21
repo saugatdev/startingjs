@@ -3,88 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saugat Ghimire - Portfolio</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap">
-    <link rel="stylesheet" href="style.css">
-  
+    <title>Saugat Ghimire - Resume</title>
+    <style type="text/css">
+        body {
+            font-family: Inter;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .contact-info a {
+            margin-right: 10px;
+        }
+        .section-title {
+            margin-top: 40px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+        .job-title {
+            font-weight: bold;
+        }
+        .job-location {
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        .date {
+            font-style: italic;
+            color: #555;
+        }
+        ul {
+            list-style-type: square;
+        }
+        .project-link {
+            color: #1a73e8;
+        }
+    </style>
 </head>
-<body >
-    <div  class="container">
-        <header>
-            <h1 id="name1">Saugat Ghimire</h1>
-            <p>JavaScript Developer</p>
-        </header>
-        
-        <section id="aboutme" class="section">
-            <h2 >About Me</h2>
-            <p>A JavaScript enthusiast who brings ideas to life through coding. He loves getting creative and solving problems, driving various real-life projects, from making dynamic websites to crafting innovative tech solutions. He blends creativity with technical skills to push the limits of JavaScript development.</p>
-        </section>
+<body>
 
-        <section id="techskills" class="section">
+    <h1>Saugat Ghimire</h1>
+    <p>Kathmandu, Nepal<br>
+        <a href="mailto:saugatghimire2003@gmail.com">saugatghimire2003@gmail.com</a> | 
+        <a href="https://github.com/Saugatify">GitHub</a> | 
+        <a href="https://twitter.com/SaugatGhimire">Twitter</a></p>
 
-        <h2>Tech Skills</h2>
-           
-        <p>JavaScript</p>
-        <p>Node JS</p>
-        <p>Git</p>
-        <p>Github</p>
+    <p>Backend Developer with expertise in Node.js, Express, and MongoDB. Passionate about building scalable and efficient systems. Continuously improving my backend development skills through hands-on projects and challenges.</p>
 
+    <h2 class="section-title">Technical Skills</h2>
+    <ul>
+        <li><strong>Languages:</strong> JavaScript</li>
+        <li><strong>Web Technologies & Database:</strong> Node.js, Express.js, MongoDB, REST, TRPC</li>
+        <li><strong>Cloud & DevOps:</strong> Git, GitHub</li>
+    </ul>
 
-         </section>
-        
-        <section class="section">
-            <h2>Projects</h2>
+    <h2 class="section-title">Projects</h2>
 
-      <div class="project" id="projectresume" onclick="openresume()">
-                <h3>Resume Builder</h3>
-                <p>Resume Builder can help you build your resume in just a go and yes download as PDF ! Uses local storage to store the data, so dont worry !</p>
-            </div>
-           
-            <div class="project" id="projectsapiens" onclick="opensapiens()">
-                <h3>Sapiens</h3>
-                <p>Helps you manage your Sapiens Resource.</p>
-            </div> 
-            
-            <div class="project" id="projectsahayatri" onclick="opensahayatri()">
-                <h3>Sahayatri</h3>
-                <p>Ever got lost of not finding local buses? Sahayatri can help you find the local buses to your destination.</p>
-            </div>
+    <h3 class="project-title"><a href="https://www.npmjs.com/package/generate-code-context" class="project-link">Generate Code Context (npm)</a></h3>
+    <p><strong>Technologies:</strong> Node.js, File System (fs) module</p>
+    <ul>
+        <li>Developed an npm package to recursively generate a code_context.txt file summarizing code, excluding unnecessary files.</li>
+        <li>Integrated Gemini AI for automatic code summaries.</li>
+        <li>Achieved 300+ downloads, reflecting its growing user base and utility for developers.</li>
+    </ul>
 
-           
+    <h3 class="project-title"><a href="https://github.com/Saugatify/RideSharingBackend" class="project-link">Ride Sharing App</a></h3>
+    <p><strong>Technologies:</strong> Node.js, MongoDB, Express</p>
+    <ul>
+        <li>Built the backend for a ride-sharing platform connecting passengers and riders.</li>
+        <li>Implemented CRUD operations, JWT-based authentication, and secure user sessions.</li>
+        <li>MongoDB serves as the database for ride management and user data.</li>
+    </ul>
 
-             <div class="project"  id="projectnolight"  onclick="opennolight()"  style="cursor: pointer;" >
-                <h3>No Light</h3>
-                <p> No Light Project helps you find if or not your area have power off. You can enter the area and find the output.</p>
-            </div>
-          
-        </section>
-                
-      
+    <h3 class="project-title"><a href="https://diabities-tracker-mwir.vercel.app/" class="project-link">Diabetes Tracker</a></h3>
+    <p><strong>Technologies:</strong> Node.js, Express.js, MongoDB, JWT</p>
+    <ul>
+        <li>Created a tool to track diabetes-related health data, mainly to log daily sugar levels.</li>
+        <li>Built CRUD functionalities for users to log and manage their health records.</li>
+        <li>Integrated with the Gemini API Model to generate health data and provide medical insights.</li>
+        <li>Utilized MongoDB for secure storage of sensitive health data.</li>
+    </ul>
 
-        <section id="contactme" class="section">
-            <h2 >Contact Information</h2>
-            <div class="contact-info">
-                <p>Email: saugatghimire2003@gmail.com</p>
-                <p>Github: <a href="https://github.com/Saugatify" target="_blank">Saugat Github</a></p>
-            </div>
-        </section>
-    </div>
-    <div id="followCursor">This Guy is  a JS Developer</div>
-    <div id="followCursor1">Read About Me</div>
-    <div id="followCursor2">What I am Learning</div>
-    <div id="followCursor3">Project No Light</div>
-    <div id="followCursor4">Project Sahayatri</div>
-    <div id="followCursor6">Project Sapiens</div>
+    <h3 class="project-title"><a href="https://doctorlay.com" class="project-link">Doctorlay</a></h3>
+    <p><strong>Technologies:</strong> Node.js, Gemini API</p>
+    <ul>
+        <li>Integrated with the Gemini API to generate health data and provide medical insights.</li>
+        <li>Implemented APIs to handle file processing, offering medical summaries and recommendations.</li>
+    </ul>
 
-    <div id="followCursor5">Mail Me For More Details</div>
+    <h2 class="section-title">Experience</h2>
 
+    <h3 class="job-title">Backend Learner</h3>
+    <p><strong>Technologies:</strong> JavaScript, Node.js, MongoDB, OpenAI | <strong>March 2024 – Present</strong></p>
+    <ul>
+        <li>Acquired backend development skills through YouTube tutorials and independently completed 5+ minor projects.</li>
+        <li>Engaged in a 50-day learning challenge to enhance understanding and application of backend technologies.</li>
+    </ul>
 
+    <h3 class="job-title">Codewave Hackathon</h3>
+    <p><strong>Technologies:</strong> Node.js, Gemini API</p>
+    <ul>
+        <li>Participated in a hackathon focused on building innovative solutions for healthcare apps using Node.js and the Gemini API.</li>
+        <li>Developed real-world applications for health analysis, enhancing backend development skills and API integration.</li>
+    </ul>
 
-
-
-    
+    <h2 class="section-title">Education</h2>
+    <p><strong>Xavier International College, Kathmandu, Nepal</strong></p>
+    <p>Bachelor's in Computer Application | <strong>Dec 2021 – 2025</strong></p>
+    <ul>
+        <li>Coursework: Web Development, Data Structures & Algorithms, Probability and Statistics, System Programming, JavaScript, Graphic Design</li>
+    </ul>
 
 </body>
-<script src="script.js"></script>
-
 </html>
